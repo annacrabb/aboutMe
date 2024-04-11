@@ -1,0 +1,25 @@
+h1 {
+    font-family: Lobster;
+    color: darkorchid;
+    font-size: 80px;
+}
+
+h2{
+    text-decoration: underline; 
+    color: darkorchid;
+}
+
+li{
+    font-style: italic;
+    color: darkslategray;
+}
+
+.smaller-image{
+    width: 350px;
+}
+
+body{
+    background-color: lightgray;
+}
+
+
