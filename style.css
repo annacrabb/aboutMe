@@ -4,22 +4,44 @@ h1 {
     font-size: 80px;
 }
 
-h2{
-    text-decoration: underline; 
+h2 {
+    text-decoration: underline;
     color: darkorchid;
 }
 
-li{
+li {
     font-style: italic;
     color: darkslategray;
 }
 
-.smaller-image{
+.smaller-image {
     width: 350px;
 }
 
-body{
+body {
     background-color: lightgray;
 }
 
+@media (max-width: 400px) {
+    h1 {
+        font-size: 50px;
+    }
 
+    h2 {
+        font-size: 20px;
+    }
+
+    a {
+        font-size: 15px;
+    }
+
+    li {
+        font-size: 12px;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+
+    }
+}
